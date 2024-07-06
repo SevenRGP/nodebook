@@ -7,7 +7,7 @@ const Container = ({
 }) => {
   return (
     <>
-      <div className={`w-full grid ${className}`}
+      <div className={`w-full grid gap-3 ${className}`}
         style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
         {...props}
       >

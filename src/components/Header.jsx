@@ -12,7 +12,7 @@ const Header = () => {
           </div>
 
           <div className='flex'>
-            <Button backShadow={true}>Login</Button>
+            <Button backShadow={true} className='bg-white'>Login</Button>
           </div>
         </nav>
       </header>

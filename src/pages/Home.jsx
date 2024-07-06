@@ -1,15 +1,11 @@
 import React from 'react';
-import { Container, Card } from '../components';
+import { Hero, RecentBlogs } from '../components';
 
 const Home = () => {
   return (
     <>
-      <Container>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </Container>
+      <Hero />
+      <RecentBlogs />
     </>
   )
 }
